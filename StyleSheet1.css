@@ -1,0 +1,139 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8E3F5; 
+    background-image: url('background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh; 
+}
+.logo
+{
+    position:absolute;
+  top:0;
+    left:0;
+    width:12%;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+.home-button,
+.about-button,
+.product-button,
+.contact-button {
+    background-color: #F8E3F5;
+    background-image: linear-gradient(180deg,#F8E3F5,white);
+    color: #C64B8C;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    font-family: 'Brush Script MT';
+}
+.column{
+   display:inline-block;  
+    width:10%;
+    padding:2px;
+
+}
+.row::after
+{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+header {
+
+    color: #C64B8C;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Brush Script MT';
+    font-size: 1.3em;
+    
+}
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.image2 {
+    float:left;
+    max-height:auto;
+    position:absolute;
+    left:0;
+    max-width: 50%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+p{
+    margin-top:0.021em;
+    text-align:center;
+    color:#C64B8C;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+section,section2 {
+    text-align: center;
+    padding: 3em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: #C64B8C;
+    font-family: 'Brush Script MT';
+}
+h2 {
+    font-size: 2em;
+    color: #C64B8C;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    
+    font-size: 2em;
+    color: #C64B8C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p1 {
+    font-size: 1em;
+    color: #C64B8C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    display:inline-block;
+   
+}
+.brownie,.cake,.cupcake,.macarons{
+    border-radius:5px;
+    border-color:#C64B8C;
+    max-height:200px;
+    cursor:pointer;
+
+}
+figcaption {
+    font-size: 1.2em;
+    color: #C64B8C;
+    font-family: 'Brush Script MT';
+}
+figcaption2{
+    font-size:0.8em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#C64B8C;
+}
+footer 
+{
+    color: #C64B8C;
+    text-align: center;
+    padding: 1em;
+}
